@@ -1,0 +1,86 @@
+/* Custom styles for BVAS */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Sidebar */
+.sidebar {
+  background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar .nav-link {
+  border-radius: 8px;
+  margin-bottom: 5px;
+  color: #495057;
+  transition: all 0.3s ease;
+  padding: 10px 15px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.sidebar .nav-link.active {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Tables */
+.table th {
+  border-top: none;
+  font-weight: 600;
+  color: #2c3e50;
+  background-color: #f8f9fa;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(13, 110, 253, 0.05);
+}
+
+/* Buttons */
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+/* Loading spinner */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100% !important;
+    min-height: auto !important;
+    border-right: none;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .container-fluid {
+    padding: 1rem !important;
+  }
+}
