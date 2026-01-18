@@ -547,7 +547,7 @@ const VendorDashboard = () => {
                         {selectedBill.documents.map((doc, idx) => (
                           <li key={idx}>
                             <a
-                              href={`http://localhost:5000/uploads/${doc.filename}`}
+                              href={`https://bvas-project.onrender.com/uploads/${doc.filename}`}
                               target="_blank"
                               rel="noopener noreferrer"
                             >

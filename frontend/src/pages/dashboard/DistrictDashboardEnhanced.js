@@ -668,7 +668,7 @@ const DistrictDashboardEnhanced = () => {
                                   <Button
                                     variant="outline-primary"
                                     size="sm"
-                                    href={`http://localhost:5000/uploads/${doc.filename}`}
+                                    href={`https://bvas-project.onrender.com/uploads/${doc.filename}`}
                                     target="_blank"
                                   >
                                     <FaDownload />
