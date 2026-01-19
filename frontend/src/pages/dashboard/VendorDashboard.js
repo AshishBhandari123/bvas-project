@@ -370,8 +370,8 @@ const VendorDashboard = () => {
                         onChange={(e) =>
                           setFormData({ ...formData, year: e.target.value })
                         }
-                        min="2023"
-                        max="2025"
+                        min="2000"
+                        max="2026"
                         required
                       />
                     </Form.Group>
